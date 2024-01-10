@@ -36,5 +36,5 @@ export default {
 </script>
 
 <template>
-  <Blog msg="" />
+  <blog msg="" />
 </template>

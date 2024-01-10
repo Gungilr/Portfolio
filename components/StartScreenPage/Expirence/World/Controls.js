@@ -1,5 +1,5 @@
 import * as THREE from "three";
-import Expirence from "../Expirence";
+import Expirence from "../Experience";
 import GSAP from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger.js";
 import ASScroll from "@ashthornton/asscroll";

@@ -1,5 +1,5 @@
 import { EventEmitter } from "events";
-import Expirence from "./Expirence";
+import Expirence from "./Experience";
 import GSAP from "gsap";
 import convert from "./Utils/convertDivsToSpans";
 

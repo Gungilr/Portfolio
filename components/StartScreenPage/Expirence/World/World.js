@@ -1,5 +1,5 @@
 import * as THREE from "three";
-import Expirence from "../Expirence";
+import Expirence from "../Experience";
 import Enviroment from "./Enviroment";
 import Controls from "./Controls"
 import Floor from "./Floor"

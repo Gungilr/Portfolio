@@ -1,5 +1,5 @@
 import * as THREE from "three";
-import Expirence from "../Expirence";
+import Expirence from "../Experience";
 import GSAP from 'gsap';
 import { RectAreaLightHelper } from "three/examples/jsm/helpers/RectAreaLightHelper.js";
 

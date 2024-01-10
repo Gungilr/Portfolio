@@ -1,6 +1,6 @@
 <template>
-    <div class="expirence">
-      <canvas class="expirence-canvas" data-engine="three.js r155dev"></canvas>
+    <div class="experience">
+      <canvas class="experience-canvas" data-engine="three.js r155dev"></canvas>
     </div>
 
     <!-- Preloader -->
@@ -134,18 +134,20 @@
   </div>
 </template>
 
-<script type="module">
-import '/components/StartScreenPage/style.css'
-import Expirence from '/components/StartScreenPage/Expirence/Expirence.js'
+<script setup>
+import Experience from '/components/StartScreenPage/Expirence/Experience.js'
+import { ref, onMounted } from 'vue'
 
-
-if(document.readyState === 'ready' || document.readyState === 'complete') {
-  const expirence = new Expirence(document.querySelector(".expirence-canvas"));
+onMounted(() => {
+  console.log("wdadw");
+  if(document.readyState === 'ready' || document.readyState === 'complete') {
+  const experience = new Experience(document.querySelector(".experience-canvas"));
 } else {
   document.onreadystatechange = function () {
     if (document.readyState == "complete") {
-      const expirence = new Expirence(document.querySelector(".expirence-canvas"));
+      const experience = new Experience(document.querySelector(".experience-canvas"));
     }
   }
 }
+});
 </script>
