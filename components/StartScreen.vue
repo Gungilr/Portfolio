@@ -1,8 +1,10 @@
-<template>
+
+<template className={StartScreen}>
     <div class="experience">
       <canvas class="experience-canvas" data-engine="three.js r155dev"></canvas>
     </div>
 
+    <link id="stylesheet" rel="stylesheet" href="/components/StartScreen.css">
     <!-- Preloader -->
     <div class="preloader">
       <div class="preloader-wrapper">

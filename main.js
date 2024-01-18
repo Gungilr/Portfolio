@@ -1,5 +1,25 @@
+// router.js
 import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
+import { createRouter, createWebHistory } from 'vue-router'
+import stylesheet from './stylesheet';
+import StartScreen from '/components/StartScreen.vue';
+import Blog from '/components/Blog.vue';
 
-createApp(App).mount('#app')
+const routes = [{
+  routes: [{
+    path: '/', component: StartScreen,
+    path: '/Blog', component: Blog
+  }]
+}];
+
+const router = createRouter({
+  history: createWebHistory(),
+  routes,
+});
+
+const app = createApp(StartScreen);
+app.use(router);
+router.beforeEach(stylesheet);
+
+app.mount("#app");
+export default router;

@@ -1,5 +1,7 @@
 import * as THREE from "three";
 
+import './style.css'
+
 import Camera from "./Camera";
 import Renderer from "./Renderer";
 import Theme from "./Theme";

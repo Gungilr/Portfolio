@@ -14,7 +14,8 @@
     "gsap": "^3.12.4",
     "lil-gui": "^0.19.1",
     "three": "^0.154.0",
-    "vue": "^3.3.4"
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
