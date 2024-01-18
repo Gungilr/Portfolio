@@ -19,10 +19,12 @@ onMounted(() => {
 
 </script>
 
-<template className = {Blog}>
+<template>
   <div class="experience">
     <canvas class="experience-canvas" data-engine="three.js r155dev"></canvas>
   </div>
+
+  <link id="stylesheet" rel="stylesheet" href="/components/Blog.css">
 
   <div class="page-wrapper" asscroll> 
     <section class="hero">
