@@ -20,18 +20,25 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="experience">
-    <canvas class="experience-canvas" data-engine="three.js r155dev"></canvas>
-  </div>
-
   <link id="stylesheet" rel="stylesheet" href="/components/Blog.css">
+    <div class="page" asscroll-container>
+      <div class="page-wrapper" asscroll> 
+        <div id="navbar">
+          <a href="#home">Home</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+        </div>
 
-  <div class="page-wrapper" asscroll> 
-    <section class="hero">
-      <div class="hero-wrapper">
-        <div class="intro-text Header">Ryan Tan</div>
-        <div class="intro-text Title">Potato Blog</div>
+        <section class="first-section section">
+          <div class="text-section">
+            <div class="section-intro">
+              <h1 class="hero-main-title">Ryan Tan Blog</h1>
+            </div>
+            <div class="main-text">
+              <h3 class="section-heading"> Potato Blog </h3>
+            </div>
+          </div>
+        </section>
       </div>
-    </section>
-  </div>
+    </div>
 </template>
