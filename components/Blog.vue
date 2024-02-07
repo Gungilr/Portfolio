@@ -24,9 +24,11 @@ onMounted(() => {
     <div class="page" asscroll-container>
       <div class="page-wrapper" asscroll> 
         <div id="navbar">
-          <a href="#home">Home</a>
-          <a href="#news">News</a>
-          <a href="#contact">Contact</a>
+          <div class="nav-links">
+            <a class = "navbar-left" href="#home">Home</a>
+            <a class = "navbar-left" href="#contact">Contact</a>
+            <a class = "navbar-right" href="#main">Main</a>
+          </div>
         </div>
 
         <section class="first-section section">

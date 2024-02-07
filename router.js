@@ -17,7 +17,7 @@ const router = createRouter({
   routes,
 });
 
-const app = createApp(Blog);
+const app = createApp(StartScreen);
 app.use(router);
 router.beforeEach(stylesheet);
 

@@ -141,7 +141,6 @@ import Experience from '/components/StartScreenPage/Expirence/Experience.js'
 import { ref, onMounted } from 'vue'
 
 onMounted(() => {
-  console.log("wdadw");
   if(document.readyState === 'ready' || document.readyState === 'complete') {
   const experience = new Experience(document.querySelector(".experience-canvas"));
 } else {

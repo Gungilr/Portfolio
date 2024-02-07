@@ -115,7 +115,26 @@ html, body{
   display: block;
   color: white;
   text-align: center;
-  padding: 15px;
   text-decoration: none;
+  padding: 16px;
+  padding-top: 8px;
+}
+
+.nav-links{
+  position: fixed;
+  display: flex;
+  padding: 16px;
+  width: 100%;
+}
+
+.navbar-left{
+
+  border-bottom-right-radius: 0px 0px;
+}
+
+.navbar-right{
+  margin-left: auto;
+  border-top-left-radius: 700px 700px;
+  border-bottom-left-radius: 0px 0px;
 }
 
