@@ -22,14 +22,14 @@ onMounted(() => {
 <template>
   <link id="stylesheet" rel="stylesheet" href="/components/Blog.css">
     <div class="page" asscroll-container>
-      <div class="page-wrapper" asscroll> 
-        <div id="navbar">
+      <div class="page-wrapper" asscroll>
+        <header id="navbar">
           <div class="nav-links">
             <a class = "navbar-left" href="#home">Home</a>
             <a class = "navbar-left" href="#contact">Contact</a>
             <a class = "navbar-right" href="#main">Main</a>
           </div>
-        </div>
+        </header>
 
         <section class="first-section section">
           <div class="text-section">

@@ -20,6 +20,7 @@ export default class Preloader extends EventEmitter{
         });
 
         this.world.on("worldready", ()=>{
+            console.log("stuuffff")
             this.setAssets();
             this.playIntro();
         });
@@ -35,7 +36,7 @@ export default class Preloader extends EventEmitter{
 
         this.room = this.expirence.world.room.actualRoom;
         this.roomChildren = this.world.room.roomChildren;
-        console.log(this.roomChildren);
+        console.log("stuff");
     }
 
     firstAnimation()

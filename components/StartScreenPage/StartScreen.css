@@ -38,7 +38,6 @@ svg{
   --color-background-dark: #8395CD;
 }
 
-  
 .light-theme{
   --color-text: var(--color-text-light);
   --color-background: var(--color-background-light);
@@ -57,13 +56,13 @@ svg{
 
 /* Expirence -------------------------------------------------------------- */
 
-.experience{
+.expirence{
   position: fixed;
   width: 100vw;
   height: 100vh;
 }
 
-.experience-canvas{
+.expirence-canvas{
   width: 100%;
   height: 100%;
 }
@@ -384,7 +383,7 @@ svg{
   height: 100vh;
 }
 
-.text-section{
+.hero-wrapper{
   position: relative;
   height: 100%;
   width: calc(100% - 160px);

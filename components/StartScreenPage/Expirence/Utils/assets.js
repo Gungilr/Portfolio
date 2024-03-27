@@ -2,12 +2,12 @@ export default [
     {
         name: "room",
         type: "glbModel",
-        path: "/models/tutorial.glb",
+        path: "/components/StartScreenPage/public/models/tutorial.glb",
     },
 
     {
         name: "screen",
         type: "videoTexture",
-        path: "/textures/YOKU.mp4"
+        path: "/components/StartScreenPage/public/textures/YOKU.mp4"
     }
 ]
