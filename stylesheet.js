@@ -5,7 +5,7 @@
  */
 const stylesheets = {
     StartScreeb: '/components/StartScreen.css',
-    Blog: '/components/Blog.css',
+    Blg: '/components/Blog.css',
   }
   
   /**
@@ -15,6 +15,7 @@ const stylesheets = {
   const defaultStylesheet = stylesheets.StartScreen
   
   const cssElement = document.getElementById('stylesheet')
+  console.log("dawasd")
   
   export default function stylesheet(to, from, next) {
 

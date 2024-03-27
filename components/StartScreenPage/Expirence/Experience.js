@@ -1,7 +1,5 @@
 import * as THREE from "three";
 
-import '../StartScreen.css'
-
 import Camera from "./Camera";
 import Renderer from "./Renderer";
 import Theme from "./Theme";
@@ -56,7 +54,7 @@ export default class Expirence
         this.renderer.resize();
         this.world.resize();
     }
-
+    
     update()
     {
         this.camera.update();
