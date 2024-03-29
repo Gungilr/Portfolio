@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
 #app {
   max-width: 0 auto;
   margin: 0 auto;
@@ -12,6 +11,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 
 html, body{
   font-family: "Montserrat", sans-serif;
@@ -65,6 +65,35 @@ html, body{
 }
 
 /*---------------------------Section -----------------------*/
+
+.section-margin{
+  height: 3000px;
+  width: 100%;
+}
+
+.section{
+  position: relative;
+  width: 50%;
+  padding: 10px 4%;
+  margin: 0;
+  background-color: var(--color-background);
+  overflow: hidden;
+}
+
+.left{
+  margin-right: auto;
+  border-top-right-radius: 700px 700px;
+  border-bottom-right-radius: 0px 0px;
+}
+
+.right{
+  margin-left: auto;
+  border-top-left-radius: 700px 700px;
+  border-bottom-left-radius: 0px 0px;
+}
+
+
+/*----------------------------------fist section---------------------*/
 .first-section{
   width: 100vw;
   height: 100vh;
@@ -137,4 +166,3 @@ html, body{
   border-top-left-radius: 700px 700px;
   border-bottom-left-radius: 0px 0px;
 }
-

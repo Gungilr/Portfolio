@@ -5,7 +5,7 @@
  */
 const stylesheets = {
     StartScreeb: '/components/StartScreen.css',
-    Blog: '/components/Blog.css',
+    Blg: '/components/Blog.css',
   }
   
   /**

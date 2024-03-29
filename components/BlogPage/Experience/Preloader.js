@@ -1,8 +1,7 @@
 import { EventEmitter } from "events";
-import Expirence from "./Expirence";
+import Expirence from "./Experience";
 import GSAP from "gsap";
 import convert from "./Utils/convertDivsToSpans";
-import { Console, debug } from "console";
 
 export default class Preloader extends EventEmitter{
     constructor()
@@ -28,7 +27,6 @@ export default class Preloader extends EventEmitter{
 
     setAssets()
     {
-        debug.log("stuff");
         convert(document.querySelector(".intro-text"));
         convert(document.querySelector(".hero-main-title"));
         convert(document.querySelector(".hero-main-description"));

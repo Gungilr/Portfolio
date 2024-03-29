@@ -102,7 +102,6 @@
           <p class="section-text">I hae completed both the certfications for the GFACT and GCLD from the GIAC organazation. </p>
         </div>
 
-        
       </section>
 
       <div class="third-move section-margin"></div>

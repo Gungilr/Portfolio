@@ -35,7 +35,7 @@ export default class Preloader extends EventEmitter{
 
         this.room = this.expirence.world.room.actualRoom;
         this.roomChildren = this.world.room.roomChildren;
-        console.log(this.roomChildren);
+        //console.log(this.roomChildren);
     }
 
     firstAnimation()
