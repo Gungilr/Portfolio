@@ -23,11 +23,12 @@ onMounted(() => {
   <link id="stylesheet" rel="stylesheet" href="/components/Blog.css">
     <div class="page" asscroll-container>
       <div class="page-wrapper" asscroll>
+        
         <header id="navbar">
           <div class="nav-links">
-            <a class = "navbar-left" href="#home">Home</a>
+            <a class = "navbar-left" href="#Blog">Home</a>
             <a class = "navbar-left" href="#contact">Contact</a>
-            <a class = "navbar-right" href="#main">Main</a>
+            <a class = "navbar-right" href="/StartScreen.vue">Main</a>
           </div>
         </header>
 
@@ -37,7 +38,21 @@ onMounted(() => {
               <h1 class="hero-main-title">Ryan Tan Blog</h1>
             </div>
             <div class="main-text">
-              <h3 class="section-heading"> Potato Blog </h3>
+              <h3 class="section-heading">Potato Pages </h3>
+            </div>
+          </div>
+        </section>
+
+
+        <section class="second-section section">
+          <div class="section-wrappers">
+            <div class="section-left left">
+              <h2 class="section-main-title">Random</h2>
+              <div class="text-section">
+                <div class="top-section-random">
+                  <h3 class="section-secondary-title">A Cherry Blossom Blooming</h3>
+                </div>
+              </div>
             </div>
           </div>
         </section>
